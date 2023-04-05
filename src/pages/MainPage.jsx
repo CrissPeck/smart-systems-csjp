@@ -6,13 +6,14 @@ import { Grid } from "@mui/material";
 import { Typography } from "@mui/material";
 import Vehiculos from "../components/Vehiculos/Vehiculos";
 import AppEnd from "../components/AppEnd";
+import Buttonfloat from "../components/buttonfloat/buttonfloat";
 
 function MainPage() {
   return (
     <div>
-      <AppBar></AppBar>
-      <Card></Card>
-      <Vehiculos></Vehiculos>
+      <AppBar/>
+      <Card/>
+      <Vehiculos/>
       <div className="font">
         <Grid
           item
@@ -34,7 +35,7 @@ function MainPage() {
           </Grid>
         </Grid>
       </div>
-      <Beneficios></Beneficios>
+      <Beneficios/>
       <div className="font">
         <Grid
           item
@@ -92,7 +93,9 @@ function MainPage() {
           </Typography>
         </Grid>
       </div>
-      <AppEnd></AppEnd>
+      <AppEnd/>
+      <Buttonfloat/>
+
     </div>
   );
 }

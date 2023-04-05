@@ -32,7 +32,7 @@ function AppBar() {
               <NavDropdown.Item href="mailto:smartsystems120304@gmail.com">
                 <img src={gmail} alt="" width="20px" height="20px" /> Gmail
               </NavDropdown.Item>
-              <NavDropdown.Item href="tel:+50581655166 ">
+              <NavDropdown.Item href="tel:+50581655166" >
                 <img src={tigo} alt="" width="20px" height="20px" /> Linea
                 Telefonica Tigo
               </NavDropdown.Item>
